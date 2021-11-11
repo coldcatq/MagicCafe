@@ -1,0 +1,34 @@
+:root {
+  /* Fonts */
+  --main-fonts-hind: 'Hind', sans-serif;
+
+  /* Background */
+  --main-body-bg: #ffffff;
+  --main-catalog-bg: #ffffff;
+  --main-btn-bg: #f39200;
+
+  /* Color-Text */
+  --color-main-text: rgb(0, 0, 0);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  text-decoration: none;
+  list-style: none;
+  font-family: var(--main-fonts-hind)
+  
+}
+
+body {
+  background: var(--main-body-bg)
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}

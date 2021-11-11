@@ -1,0 +1,42 @@
+.shopping__container{
+
+    width: 95%;
+    height: 95vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 2px solid rgb(236, 150, 37);
+
+}
+
+
+.shopping__element--name{
+
+color: rgb(255, 145, 0);
+font-size: 22px;
+font-weight: 600;
+padding: 20px;
+
+}
+
+
+.shopping__element--price{
+
+    color: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+
+.shopping__close{
+    width: 45px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
